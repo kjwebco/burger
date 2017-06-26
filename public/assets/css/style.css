@@ -1,9 +1,9 @@
 body{
-  background-color: yellow;
+  background-color: #f4bf42;
 }
 .list-group-item{
   border: none;
-  background-color: yellow;
+  background-color: #f4bf42;
 }
 #burger-pic{
   height: 200px;
