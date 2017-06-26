@@ -1,5 +1,4 @@
-//MY sql password in a separate key file
-var key = require('./keys.js');
+
 var mysql = require('mysql');
 var connection;
 
@@ -9,7 +8,7 @@ if(process.env.JAWSDB_URL) {
     connection = mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: key,
+        password: 'architect',
         database: 'burgers_db'
     });
 }
