@@ -28,7 +28,8 @@ app.set('view engine', 'handlebars');
 // LISTENER
 // The below code effectively "starts" our server
 // ==============================================================================
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3000;
+
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
 });
